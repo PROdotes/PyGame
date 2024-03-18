@@ -1,6 +1,5 @@
 import pygame
-
-TILE_SIZE = 32
+from settings import TILE_SIZE
 
 class Player(pygame.sprite.Sprite):
     def __init__(self, pos, group, obstacle_sprites):

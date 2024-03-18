@@ -1,7 +1,8 @@
 import pygame
 from level import Level
+from settings import TILE_SIZE
 
-SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
+SCREEN_WIDTH, SCREEN_HEIGHT = TILE_SIZE * 15, TILE_SIZE * 12
 GAME_NAME = "My Game"
 
 
